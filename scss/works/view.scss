@@ -1,0 +1,28 @@
+#works-view {
+    width: 100%;
+    height: 80%;
+
+    padding: $page-margin;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .view-image {
+        height: 100%;
+        width: 40%;
+    }
+
+    .image2 {
+        background-image: url("../../assets/images/example2.jpeg");
+    }
+
+    p {
+        width: 50%;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+}

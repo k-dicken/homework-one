@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Andale Mono, monospace;
+}
+
+p, a {
+  font-family: Courier New, monospace;
+  text-decoration: none;
+}
+
+.margin-reset {
+  margin: 0;
+}
+
+.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #999;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 60px;
+  background-color: #333;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #DA0;
+}
+nav p {
+  color: #999;
+  margin: 0;
+}
+
+#hero {
+  height: 80vh;
+  width: 100%;
+  background-image: url(../../assets/images/example1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px;
+}
+#home-content * {
+  margin: 0;
+}
+#home-content .content-text {
+  width: 70%;
+}
+#home-content .content-links {
+  height: 100%;
+  width: 20%;
+  margin-left: 60px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-left: #999 1px solid;
+}
+#home-content .content-links a {
+  color: #333;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+#home-content .content-links a:hover {
+  color: #DA0;
+}
+
+#about-content {
+  width: 100%;
+  height: 80%;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about-content .image-about {
+  height: 100%;
+  width: 40%;
+  background-image: url(../../assets/images/photographer.jpeg);
+  background-color: red;
+}
+#about-content .description {
+  width: 50%;
+}
+
+.studio-image {
+  width: 100%;
+  height: 60%;
+  background-image: url(../../assets/images/studio.jpeg);
+}
+
+.about-links {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 80px;
+  background-color: #999;
+}
+.about-links * {
+  color: #FFF;
+}
+.about-links a:hover {
+  color: #000;
+}
+
+#works-gallery {
+  height: 100%;
+}
+#works-gallery .row {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  display: flex;
+}
+#works-gallery .row .row-short {
+  width: 40%;
+}
+#works-gallery .row .row-long {
+  width: 60%;
+}
+#works-gallery .image2 {
+  background-image: url("../../assets/images/example2.jpeg");
+}
+#works-gallery .image3 {
+  background-image: url("../../assets/images/example3.jpeg");
+}
+#works-gallery .image4 {
+  background-image: url("../../assets/images/example4.jpeg");
+}
+#works-gallery .image5 {
+  background-image: url("../../assets/images/example5.jpeg");
+}
+
+#works-view {
+  width: 100%;
+  height: 80%;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#works-view .view-image {
+  height: 100%;
+  width: 40%;
+}
+#works-view .image2 {
+  background-image: url("../../assets/images/example2.jpeg");
+}
+#works-view p {
+  width: 50%;
+}
+#works-view p span {
+  font-weight: bold;
+}
+
+#contact-form {
+  height: 80%;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact-form form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#contact-form form * {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 60px;
+  font-family: Courier New, monospace;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: #999 2px solid;
+}
+#contact-form form h2 {
+  border-bottom: none;
+}
+#contact-form p {
+  width: 50%;
+}
+
+#contact-map {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/map.jpeg);
+}
+#contact-map * {
+  color: #FFF;
+  font-weight: bolder;
+}
+#contact-map a:hover {
+  color: #DA0;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: #333;
+}
+
+/*# sourceMappingURL=styles.css.map */

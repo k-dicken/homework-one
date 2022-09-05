@@ -1,0 +1,23 @@
+nav {  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 10px $large-margin;
+
+    background-color: $dark-grey;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $accent;
+    }
+
+    p {
+        color: $light-grey;
+        margin: 0;
+    }
+}

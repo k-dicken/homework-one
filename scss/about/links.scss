@@ -1,0 +1,19 @@
+.about-links {
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: $page-margin;
+
+    background-color: $light-grey;
+
+    * {
+        color: #FFF;
+    }
+
+    a:hover {
+        color: #000;
+    }
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+//fonts
+h1, h2, h3, h4, h5, h6 {
+    font-family: $head-font;
+}
+
+p, a {
+    font-family: $sub-font;
+    text-decoration: none;
+}
+
+//general classes
+.margin-reset {
+    margin: 0;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: $light-grey;
+}
